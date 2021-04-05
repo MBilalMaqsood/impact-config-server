@@ -1,6 +1,6 @@
-spring.datasource.url=jdbc:postgresql://ec2-54-164-134-207.compute-1.amazonaws.com:5432/dapcf6v4n9f6au
-spring.datasource.username=sfenqbsjsonkrr
-spring.datasource.password=1566bb5b2117ed153ae916c3c754e89295566e827eb35989877c73c79b86fac1
+spring.datasource.url=jdbc:postgresql://localhost/impactoo
+spring.datasource.username=postgres
+spring.datasource.password=admin
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update
@@ -26,4 +26,4 @@ keycloak.security-constraints[0].security-collections[0].patterns[0]=/school/*
 api.questionnaire.url=http://localhost:8282/questionnaire/getQuestionnaireList
 #user management client
 usermanagement.keycloak.clientid =user-management
-usermanagement.keycloak.clientsecret =f75c4b71-9b5e-469f-8297-2eba5ebb1997
+usermanagement.keycloak.clientsecret =4132c4ad-07be-4fe0-b176-2f89dc464725
